@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+
+.container{
+    background-color:aliceblue;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.inputArea{
+    margin-bottom: 20px;
+}
+.taskBoard{
+    border: 1px solid gray;
+}
+
+.taskTabs{    
+    border-bottom: 1px solid gray;
+    display: flex;
+    position:relative;
+}
+
+.taskTabs div{
+    padding: 1em;
+    cursor: pointer;
+}
+
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#underLine{
+    position: absolute;
+    background-color:blueviolet;
+    height: 5px;
+    top: 52px;
+    width: 70px;
+    padding: 1px;
+}
+
+
+.done{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: bisque;
+    margin: 0;
+}
+
+
+.container{
+    background-color: aliceblue;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.inputArea{
+    margin-bottom: 2em;
+}
+
+.taskArea{
+    border: 1px solid gray;
+}
+
+.taskTabs{
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid gray;
+    
+}
+.taskTabs div{
+    padding: 1em;
+    cursor: pointer;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#underLine{
+    position:absolute;
+    background-color: rgb(52, 45, 255);
+    height: 1px;
+    width: 70px;
+    left: 0;
+    top: 50px;
+    padding: 2px;
+}
+
+.taskDone{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body{
+     기본 margin 8px이 되어있음 
+    margin: 0px;
+    background-image: url(images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: aliceblue; 
+    /* 
+    min-height 란? = 최소높이
+    100vh 란?      = 브라우저의 전체높이 (보는화면의 높이만큼)
+     
+    min-height: 100vh; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.taskArea{
+    border: 1px solid lightgray;
+}
+
+.taskTabs{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.taskTabs div{
+    padding: 1em;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em
+}
+
+
+#underLine{
+    height: 5px;
+    background-color: brown;
+    position: absolute;
+    width: 80px;
+    left: 0;
+    top: 51px;
+    padding: 0;
+}
+  */
