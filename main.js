@@ -29,6 +29,46 @@ for (let i = 0; i < menus.length; i++) {
     });
 }
 
+
+let underLine = document.getElementById("underLine");
+console.log(underLine)
+menus.forEach(menu => menu.addEventListener("click", (e)=> indicator(e)));
+
+function indicator(e){
+    underLine.style.left = e.currentTarget.offsetLeft + "px";
+    underLine.style.width = e.currentTarget.offsetWidth + "px";
+    underLine.style.top = 
+        e.currentTarget.offsetTop + e.currentTarget.offsetHeight + "px";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let underLine = document.getElementById("underLine");
+// let tabsMenus = document.querySelectorAll(".taskTabs div:not(:first-child)");
+
+// tabsMenus.forEach(menu => menu.addEventListener("click", (e)=>indicator(e)));
+
+// function indicator(e){
+//     underLine.style.left = e.currentTarget.offsetLeft + "px";
+//     underLine.style.width = e.currentTarget.offsetWidth + "px";
+//     underLine.style.top = e.currentTarget.offsetTop + e.currentTarget.offsetHeight+ "px";
+// }
+
+
+
+
+
 function filter(e) {
     mode = e.target.id;
     filterList = [];
